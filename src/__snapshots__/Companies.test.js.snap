@@ -1,19 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Companies /> renders list of company links 1`] = `
-<Fragment>
-  <div>
+<div
+  className="company-menu-wrapper"
+>
+  <div
+    className="company-menu-header"
+  >
     Your companies
   </div>
-  <CompanyLink
+  <Connect(CompanyLink)
     id={1}
     key="1"
     name="Dummy company"
   />
-  <CompanyLink
+  <Connect(CompanyLink)
     id={2}
     key="2"
     name="Smarty company"
   />
-</Fragment>
+</div>
 `;

@@ -1,9 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<DropdownMenu /> renders menu 1`] = `
-<div>
+<div
+  className="dropdown-menu"
+>
   <Connect(Companies) />
-  <div>
+  <div
+    className="menu-links-wrapper"
+  >
     <MenuLink
       icon="phone_iphone"
       text="Get the mobile app"
@@ -17,7 +21,9 @@ exports[`<DropdownMenu /> renders menu 1`] = `
       text="Knowledge base"
     />
   </div>
-  <div>
+  <div
+    className="menu-footer"
+  >
     <MenuLink
       icon="settings"
       text="Settings"
